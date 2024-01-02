@@ -14,12 +14,12 @@ export default function App() {
    <>
        <Router>
           <Routes>
-            <Route path='/' Component={Landing}/>
-            <Route path='/sponsers' Component={Sponsers} />
-            <Route path='/people' Component={People} />
-            <Route path='/tracks' Component={Tracks} />
-            <Route path='/schedule' Component={Schedule} />
-            <Route path='/faq' Component={Faq} />
+            <Route path='/' element={<Landing/>}/>
+            <Route path='/sponsers' element={<Sponsers/>} />
+            <Route path='/people' element={<People/>} />
+            <Route path='/tracks' element={<Tracks/>} />
+            <Route path='/schedule' element={<Schedule/>} />
+            <Route path='/faq' element={<Faq/>} />
       </Routes>
     </Router>
    </>

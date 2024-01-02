@@ -14,7 +14,7 @@ export default function App() {
    <>
        <Router>
           <Routes>
-            <Route exact path='/' Component={Landing}/>
+            <Route path='/' Component={Landing}/>
             <Route path='/sponsers' Component={Sponsers} />
             <Route path='/people' Component={People} />
             <Route path='/tracks' Component={Tracks} />
